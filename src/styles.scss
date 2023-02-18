@@ -1,0 +1,9 @@
+/* Add application styles & imports to this file! */
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";
+
+/* Importing Bootstrap SCSS file. */
+@import 'bootstrap/scss/bootstrap';
+
+body{
+    overflow: hidden;
+}
