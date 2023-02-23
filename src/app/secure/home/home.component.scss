@@ -41,11 +41,11 @@ html {
     background-repeat: none;
     opacity: 0;
     z-index: 0;
-    animation: backgroundSlideshow 35s linear infinite 0s;
+    animation: backgroundSlideshow 40s linear infinite 0s;
   }
   .slideshow li:nth-child(1) .img-bg-slide {
-     background-image: url(../../../assets/img/slideshow/1.jpg);
-  }
+    background-image: url(../../../assets/img/slideshow/1.jpg);
+ }
   .slideshow li:nth-child(2) .img-bg-slide { 
     background-image: url(../../../assets/img/slideshow/2.jpg);
       animation-delay: 5s; 
@@ -69,6 +69,10 @@ html {
   .slideshow li:nth-child(7) .img-bg-slide { 
     background-image: url(../../../assets/img/slideshow/7.jpg);
       animation-delay: 30s; 
+  }
+  .slideshow li:nth-child(8) .img-bg-slide { 
+    background-image: url(../../../assets/img/slideshow/8.jpg);
+      animation-delay: 35s; 
   }
   @keyframes backgroundSlideshow {
     0% { opacity: 0;}

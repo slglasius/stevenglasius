@@ -22,7 +22,13 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { FlexLayoutModule } from '@angular/flex-layout';
 import { MatCardModule } from '@angular/material/card';
 import { VideoComponent } from './secure/video/video.component';
-import { EventsComponent } from './secure/events/events.component'; 
+import { AlbumComponent } from './secure/Album/album.component';
+import { FirstComponent } from './secure/Album/first/first.component';
+import { SecondComponent } from './secure/Album/second/second.component';
+import { ThirdComponent } from './secure/Album/third/third.component';
+import { CoorporateComponent } from './secure/photos/coorporate/coorporate.component';
+import { HeadshotsComponent } from './secure/photos/headshots/headshots.component'; 
+import { EventsComponent } from './secure/photos/events/events.component';
 
 @NgModule({
   declarations: [
@@ -34,7 +40,13 @@ import { EventsComponent } from './secure/events/events.component';
     ContactComponent,
     HomeComponent,
     VideoComponent,
-    EventsComponent
+    AlbumComponent,
+    FirstComponent,
+    SecondComponent,
+    ThirdComponent,
+    CoorporateComponent,
+    HeadshotsComponent,
+    EventsComponent,
   ],
   imports: [
     BrowserModule,

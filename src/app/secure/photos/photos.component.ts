@@ -15,8 +15,6 @@ export class PhotosComponent {
 
   ngOnInit() {
     
-    console.log("Blaatje bla");
-
     for (let i = 0; i < this.listLength; i++) {
       this.photos.push({ id: i, url: '../../../assets/img/2022/ml/kadedec/' + i + '.jpg' });
       
