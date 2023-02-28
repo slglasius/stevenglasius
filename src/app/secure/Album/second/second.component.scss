@@ -1,0 +1,25 @@
+@use "@material/image-list";
+
+.my-woven-image-list {
+    list-style: none;
+    text-align: center;
+    padding-right: 1rem;
+}
+@media (min-width: 1100px) {
+    .mdc-image-list__image {
+        max-width: 100%;
+        max-height: 60vh;
+        margin: auto;
+        padding: 5px;
+        border-radius: 15px;
+    }
+}
+
+@media (max-width: 1099px) {
+    .mdc-image-list__image {
+        max-width: 100%;
+        margin: auto;
+        padding: 5px;
+        border-radius: 15px;
+    }
+}

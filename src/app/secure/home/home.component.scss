@@ -9,7 +9,7 @@ html {
     width: 100%;
     font-size: 2rem;
     z-index: 100;
-    bottom: 3em;
+    bottom: 5em;
     color: #FFFFFF;
     text-align: start;
     padding-left: 5%;
@@ -41,7 +41,7 @@ html {
     background-repeat: none;
     opacity: 0;
     z-index: 0;
-    animation: backgroundSlideshow 40s linear infinite 0s;
+    animation: backgroundSlideshow 40s infinite 0s;
   }
   .slideshow li:nth-child(1) .img-bg-slide {
     background-image: url(../../../assets/img/slideshow/1.jpg);
@@ -79,7 +79,8 @@ html {
     12.5% { opacity: 1;}
     25% { opacity: 1;}
     37.5% { opacity: 0;}
-    100% { opacity: 0;} 
+    100% { opacity: 0;}
+   
   }
   /* End of BG SLIDESHOW */
   

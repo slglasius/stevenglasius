@@ -21,7 +21,7 @@ const routes: Routes = [
   { path: 'fotos', component: PhotosComponent },
   { path: 'video', component: VideoComponent },
   { path: 'prijzen', component: PricingComponent },
-  { path: 'album', component: AlbumComponent },
+  { path: 'albums', component: AlbumComponent },
   { path: 'first', component: FirstComponent },
   { path: 'second', component: SecondComponent },
   { path: 'coorporate', component: CoorporateComponent },

@@ -10,7 +10,7 @@ export const PHOTOS: Photos[] = [];
 })
 export class SecondComponent {
   photos = PHOTOS;
-  listLength : number = 1;
+  listLength : number = 124;
 
   ngOnInit() {
     

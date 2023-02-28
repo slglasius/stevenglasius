@@ -1,16 +1,37 @@
 @use "@material/image-list";
 
 .my-woven-image-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.mdc-image-list__image {
+  max-width: 100%;
+  // max-height: 50vh;
+  // margin: auto;
+  margin: 2%;
+  border-radius: 15px;
+  text-align: center;
+}
+
+@media (min-width: 1100px) {
+  .my-masonry-image-list {
+    @include image-list.masonry-columns (4);
+    text-align: center;
     list-style: none;
-    margin: 0;
-    padding: 0;
-    text-align: center; 
-
-
-  }
-  .mdc-image-list__image {
     max-width: 100%;
-    max-height: 50vh;
-    margin: auto;
-    // text-align: center; 
+    padding-right: 2%;
+  }
+}
+
+@media (max-width: 1099px) {
+  .my-masonry-image-list {
+    @include image-list.masonry-columns(1);
+    text-align: center;
+    list-style: none;
+    max-width: 100%;
+    padding-right: 6%;
+  }
 }
